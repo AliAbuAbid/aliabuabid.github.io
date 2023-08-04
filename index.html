@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ali Abu Abid CV.</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="loading">
+        <div id="spinner"></div>
+    </div>
+    <div id="header" class="animated slideInDown" style="animation-delay:1.8s;">
+    <div id="title">Ali Abu Abid.</div><br>
+    <div id="links">
+        <a href="#about">about</a>
+        <a href="#skills">skills</a>
+        <a href="#work" style="margin:0px 60px;">works</a>
+        <a href="#contact">contact</a>
+        
+        <a href="#Web">Web</a>
+    </div>
+    </div>
+
+    <center>
+    <div id="middle">
+        <div id="tagline" class="animated zoomIn" style="animation-delay:1.8s;">
+            Hello, I'm Ali Abu Abid I'm a web/mobile developer.<br>
+            <button onclick="linkedin()" class="btn_one">Hire me</button>
+        </div>
+    </div>
+    </center>
+
+    <div id="portfolio">
+             <div id="about">
+                 <h1>about</h1>   
+                 <div>
+                        <p>
+                            I'm a 4th year Software Engineer student at SCE, in my journy i made several projects based on web development.
+                            <ol>
+                                <li>
+                                    Web application project using MVC ASP.NET framework and C# as backend language. 
+                                </li>
+                                <li>
+                                    Web application project using Django framework and Python as backend language.
+                                </li>
+                                <li>
+                                    web application project using designing with Html,Css and JavaScript 
+                            </ol>
+                            Also i have a basic knowledge of the following languages:
+                            HTML, CSS, JAVASCRIPT, JAVA, C, C++, Python,React, Dart & Flutter.
+                        
+                        <h1>CV</h1>
+                       <div id="project">
+                          
+                            
+                            <div id="photos">
+                                <img onclick=CV() src="CV.png">
+                             
+                            </div>
+                        
+                         
+                            
+                            </a>
+
+                        </div>
+                    </div> 
+             </div>
+
+         
+        
+
+
+             
+
+
+
+                 <div id="skills">
+                    <h1>skills</h1>
+                    <p>
+                        <li>
+                             C language.
+                        </li>
+                        <li>
+                            C++ language.
+                        </li>
+                        <li>Python language.</li>
+                        <li>Java language.</li>
+                        <li>C# language.</li>
+                        <li>Html.</li>
+                        <li>Css.</li> 
+                        <li>Java Script.</li>
+                        <li>Dart&Flutter.</li>
+                        <li>PL/SQL.</li>  
+                        <li>Speaking languages:English,Hebrew,Arabic.</li> 
+                    </p>                  
+   
+                </div>
+
+
+                <div id="work">
+                    <h1>works.</h1>
+                <div class="project"> 
+                    <h2>FlyEasily</h2>
+                    <div>A website for ordering tickets instead of going to the airport</div>
+                    <div id="photos">
+                        <img onclick="magnify($(this).attr('src'))" src="ED/login.png">
+                        <img onclick="magnify($(this).attr('src'))" src="ED/pspage.png">
+                        <img onclick="magnify($(this).attr('src'))" src="ED/aaaaaaaaaaa.png">
+                        <img onclick="magnify($(this).attr('src'))" src="ED/api.png">
+                        <img onclick="magnify($(this).attr('src'))" src="ED/ddd.png">
+                        <img onclick="magnify($(this).attr('src'))" src="ED/ordertick.png">
+
+                    </div>
+                    <button onclick="FlyEasily()" class="btn_one">Code!</button>
+            
+                </div>    
+                <div class="project">
+                 <h2>Doctor Page</h2>
+                 <div>A page to help the doctor to give the patient what disees he has and to tell him rhat is the perfect treatment he should take</div>
+                 <div id="photos">
+                    <img onclick="magnify($(this).attr('src'))" src="ATA/doc.png">
+                    <img onclick="magnify($(this).attr('src'))" src="ATA/cli.png">
+                    <img onclick="magnify($(this).attr('src'))" src="ATA/client.png">
+                    <img onclick="magnify($(this).attr('src'))" src="ATA/tabels.png">
+                    <img onclick="magnify($(this).attr('src'))" src="ATA/table.png">
+                    <img onclick="magnify($(this).attr('src'))" src="ATA/tabless.png">
+                </div>
+
+                 <button onclick="ATAPlay()" class="btn_one">Code!</button>
+                </div>
+
+                <div class="project">
+                    <h2 id="Web">CoffeeShop</h2>
+                    
+                    <div>Web application to help cashier or client to take orders.
+                    </div>
+                    <div id="photos">
+                        <img onclick="magnify($(this).attr('src'))" src="Cinema/homepage.png">
+                        <img onclick="magnify($(this).attr('src'))" src="Cinema/loginpage.png">
+                        <img onclick="magnify($(this).attr('src'))" src="Cinema/signuppage.png">
+                       
+                        
+                </div>
+                <button onclick="Cinema()" class="btn_one">code!</button>
+                    
+                </div>
+
+                
+
+             </div>
+             <div id="CV">
+                 
+             
+               
+              
+            </div>
+        </div>
+              <div id="contact">
+                 <h1>contact.</h1> 
+                 <div id="details">
+                     <a href="https://github.com/AliAbuAbid" class="btn_social"><i class="fab fa-github"></i></a>
+                     <a href="https://www.linkedin.com/in/ali-abu-abid-22a15820b/" class="btn_social"><i class="fab fa-linkedin-in"></i></a>
+                     <a href="https://www.facebook.com/ali.abuabid.99" class="btn_social"><i class="fab fa-facebook"></i></a>
+                     <a href="https://www.instagram.com/aliabuabid99" class="btn_social"><i class="fab fa-instagram"></i></a>
+                    
+               
+                </div >   
+                    <a href="tel:+972549927489" <i style="margin: 5px;" class="fas fa-phone">  +972549927489</i> </a><br>
+                 
+                 <p><a href="mailto:3liabuabid99@gmail.com"><i style="margin: 5px;" class="fa fa-envelope">3liabuabid99@gmail.com</i></a></p>
+                </div>
+             </div>
+    </div>
+    <div id="footer">
+        made on earth by a human <br><br> <a href="https://github.com/AliAbuAbid">  Ali Abu Abid </a>
+    </div>
+<script src="index.js" type="text/javascript"></script>
+</body>
+</html>
